@@ -7,15 +7,6 @@ class City:
     def __change_localisation__(self,nom,departement):
         self.nom_ville = nom
         self.numero_departement= departement
-
-
-
-
-
-
-
-
-
 ville1 = City("Roubaix", 59)
 ville1.__show_localisation__()
 ville2 = City("Paris", 75)
